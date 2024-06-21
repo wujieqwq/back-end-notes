@@ -1,7 +1,7 @@
 spring-boot-starter中就已经包含了有关slf4j的jar包
 
 ### 基础使用
-```
+```java
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,7 +40,7 @@ logging:
 ```
 
 ### logback-spring.xml的配置如下：
-```
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 日志级别从低到高分为TRACE < DEBUG < INFO < WARN < ERROR < FATAL，如果设置为WARN，则低于WARN的信息都不会输出 -->
 <!-- scan:当此属性设置为true时，配置文档如果发生改变，将会被重新加载，默认值为true -->
