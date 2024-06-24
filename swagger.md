@@ -14,7 +14,7 @@ springboot集成=>
 
 访问测试http://localhost:8080/swagger-ui.html
 
-```
+```java
 @Configuration //配置类
 @EnableSwagger2// 开启Swagger2的自动配置
 public class SwaggerConfig {
