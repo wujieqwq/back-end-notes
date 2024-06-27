@@ -71,3 +71,14 @@ ACT_GE_*: 通用数据， 用于不同场景下，如存放资源文件。
     1) act_ge_bytearray 二进制数据表
 
     2) act_ge_property 属性数据表存储整个流程引擎级别的数据,初始化表结构时，会默认插入三条记录
+
+
+## 接口
+
+1. RepositoryService：提供管理流程部署和流程定义API。
+2. RuntimeService：提供运行时流程实例进行管理与控制API。
+3. TaskService：提供流程任务管理API。
+4. IdentityService：提供对流程用户数据进行管理的API，包括用户组、用户及用户–组关系。
+5. ManagementService：提供对流程引擎进行管理和维护的服务。
+6. HistoryService：提供流程的历史数据进行操作API。
+7. FormService：提供表单服务。
