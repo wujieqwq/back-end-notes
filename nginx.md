@@ -53,4 +53,6 @@ Nginx 启动之后，在 Linux 系统中有两个进程，一个为 master，一
     第二：Keepalived应该能监控Nginx的生命状态（提供一个用户自定义的脚本，定期检查Nginx进程状态，进行权重变化,，从而实现Nginx故障切换）
 ![虚拟IP.png](img/虚拟IP.png)
 
-nginx配置https://www.cnblogs.com/hanease/p/15890509.html
+nginx配置
+https://www.cnblogs.com/hanease/p/15890509.html
+https://www.cnblogs.com/54chensongxia/p/12938929.html
